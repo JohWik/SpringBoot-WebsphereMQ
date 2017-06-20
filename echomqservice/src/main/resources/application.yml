@@ -1,0 +1,17 @@
+server: 
+  port: 8081
+
+spring:
+  application:
+    name: echomqservice
+
+# Websphere MQ settings
+wmq:
+  queueManager: <queuemanager-name>
+  host: <queuemanager-host>
+  port: <port>
+  channel: <channel-name> 
+  incomingQueue: <incoming-queue>
+  outgoingQueue: <outgoing-queue>
+  user: <userid>
+  password: <pwd>
